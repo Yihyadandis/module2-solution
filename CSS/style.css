@@ -1,0 +1,86 @@
+h1 {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 20px;
+}
+
+div#menu {
+  
+
+}
+p{
+  width: 300px;
+  height: 300px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  
+  float:left;
+    
+}
+#A1 {
+  background-color: black;
+  
+}
+
+#A2 {
+  background-color:yellow;
+  position: relative;
+  
+}
+
+#A3 {
+  background-color: crimson;
+  position: relative;
+
+}
+
+@media (min-width: 992px) {
+  #A1 {
+    width: 30%;
+    
+  }
+
+  #A2{
+    width: 33%;
+  }
+  
+  #A3{
+    width: 33%;
+  }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+
+  #A1 {
+    width: 46%;
+    
+  }
+
+  #A2{
+    width: 46%;
+  }
+  
+  #A3{
+    width: 95%;
+      }
+
+
+}
+
+@media (max-width:767px) {
+
+  #A1 {
+    width: 95%;
+    
+  }
+
+  #A2{
+    width: 95%;
+  }
+  
+  #A3{
+    width: 95%;
+      }
+
+
+}
